@@ -1,0 +1,11 @@
+/* Top Navigation */
+.TopNavigation01 {
+    position: absolute;
+    width: 1281px;
+    height: 110px;
+    left: 0px;
+    top: -1px;
+
+    background: radial-gradient(81.17% 10991.07% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
