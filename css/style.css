@@ -4,6 +4,7 @@ body{
     text-decoration: none;
 }
 
+/* Top Navigation CSS */
 .TopNavigation{
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     padding: auto;
@@ -11,6 +12,7 @@ body{
     background-position: 0% 50%;
 }
 
+/* Keep Logo stay in #001135 background in Topnavigation*/
 @media screen and (max-width: 940px){
     .TopNavigation{
         background: radial-gradient(70% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
