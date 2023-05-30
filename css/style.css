@@ -4,6 +4,12 @@ body{
     text-decoration: none;
 }
 
+.MAXWidth{
+    max-width: 1280px;
+    margin: auto;
+    display: block;
+}
+
 /* Top Navigation CSS */
 .TopNavigation{
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
