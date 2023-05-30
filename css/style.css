@@ -96,6 +96,10 @@ body{
     color:#60706D;
 }
 
+.TopSearchDIV{
+    margin: auto;
+}
+
 .TopSearchButton{
     width: 32px;
     height: 32px;
