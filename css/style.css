@@ -14,10 +14,10 @@ body{
 .TopNavigation{
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     padding: auto;
-    font-size: 12px;
+    font-size: 24px;
 }
 
-/* Keep Logo stay in #001135 background in Topnavigation*/
+/* Keep Logo stay in #001135 background in TopNavigation*/
 @media screen and (max-width: 940px){
     .TopNavigation{
         background: radial-gradient(70% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
@@ -74,4 +74,19 @@ body{
 .TopLogoIMG{
     height: 80px;
     width: auto;
+}
+
+.TopNavText{
+    display: flex;
+    margin: auto 80px;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.TopNavText a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
 }
