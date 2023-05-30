@@ -5,7 +5,7 @@ body{
 }
 
 .MAXWidth{
-    max-width: 1280px;
+    max-width: 1300px;
     margin: auto;
     display: block;
 }
@@ -13,6 +13,7 @@ body{
 /* Top Navigation CSS */
 .TopNavigation{
     display: flex;
+    justify-content: space-around;
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     padding: auto;
     font-size: 24px;
@@ -69,7 +70,6 @@ body{
 
 .TopLogoDIV{
     display: flex;
-    justify-content:flex-start;
 }
 
 .TopLogoIMG{
@@ -79,9 +79,9 @@ body{
 
 .TopNavText{
     display: flex;
-    margin: auto 80px;
-    width: 700px;
-    justify-content: space-between;
+    margin: auto;
+    width: 600px;
+    justify-content:space-between;
 }
 
 .TopNavText a{
@@ -96,8 +96,9 @@ body{
     color:#60706D;
 }
 
-.TopSearchDIV{
-    margin: auto;
+.TopIconDIV{
+    display: flex;
+    align-items: center;
 }
 
 .TopSearchButton{
