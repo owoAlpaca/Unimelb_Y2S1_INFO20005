@@ -12,6 +12,8 @@ body{
 
 /* Top Navigation CSS */
 .TopNavigation{
+    max-width: 1280px;
+    margin: auto;
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     padding: auto;
     font-size: 12px;
