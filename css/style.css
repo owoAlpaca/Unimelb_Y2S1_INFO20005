@@ -90,3 +90,11 @@ body{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
     text-decoration: none;
 }
+
+.TopNavText a:hover{
+    color:#60706D;
+}
+
+.TopSearchButton{
+    
+}
