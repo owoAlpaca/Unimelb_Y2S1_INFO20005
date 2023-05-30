@@ -8,6 +8,48 @@ body{
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     padding: auto;
     font-size: 12px;
+    background-position: 0% 50%;
+}
+
+@media screen and (max-width: 940px){
+    .TopNavigation{
+        background: radial-gradient(70% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 650px){
+    .TopNavigation{
+        background: radial-gradient(60% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 560px){
+    .TopNavigation{
+        background: radial-gradient(50% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 380px){
+    .TopNavigation{
+        background: radial-gradient(40% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 310px){
+    .TopNavigation{
+        background: radial-gradient(30% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 260px){
+    .TopNavigation{
+        background: radial-gradient(20% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 230px){
+    .TopNavigation{
+        background: radial-gradient(10% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
+}
+@media screen and (max-width: 210px){
+    .TopNavigation{
+        background: radial-gradient(0% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    }
 }
 
 .TopLogoDIV{
