@@ -12,12 +12,9 @@ body{
 
 /* Top Navigation CSS */
 .TopNavigation{
-    max-width: 1280px;
-    margin: auto;
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     padding: auto;
     font-size: 12px;
-    background-position: 0% 50%;
 }
 
 /* Keep Logo stay in #001135 background in Topnavigation*/
@@ -60,6 +57,13 @@ body{
     .TopNavigation{
         background: radial-gradient(0% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
     }
+}
+
+.TopNavigationBG{
+    background: linear-gradient(to right, #001135 50%, #60706D 50%);
+    padding: auto;
+    margin: auto;
+    width: 100%;
 }
 
 .TopLogoDIV{
