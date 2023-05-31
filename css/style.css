@@ -115,8 +115,21 @@ body{
     height: 32px;
 }
 
+/*Body Part Background color*/
+.BackgroundColor{
+    background-color: #D2ECE4;
+    width: 100%;
+}
+
 /* Banner CSS*/
 .Banner{
     display: flex;
     justify-content: center;
+}
+
+.BannerIMG{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
