@@ -259,6 +259,7 @@ body{
     text-decoration: none;
 }
 
+/* Footer Part*/
 .FooterBG{
     background: linear-gradient(to right, #001135 50%, #60706D 50%);
     padding: auto;
@@ -271,6 +272,91 @@ body{
     margin: auto 64px;
     height: 640px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+}
+
+/*-Upper Part of Footer-*/
+.FooterUpperPart{
+
+}
+
+/*-Upper Left Part-*/
+.FooterInfoSection{
+
+}
+
+.FooterInfo{
+
+}
+
+.FooterInfoTitle{
+
+}
+
+.FooterInfoContent{
+
+}
+
+/*-Upper Right Part-*/
+.FooterSFPSection{
+
+}
+
+.FooterSFPTitle{
+
+}
+
+/*-Subscribe to our site Part-*/
+.FooterSubSection{
+
+}
+
+.FooterSubTextBox{
+
+}
+
+.FooterSubButton{
+
+}
+
+/*-Follow us Part-*/
+.FooterFollowSection{
+
+}
+
+.FooterFollowIcon{
+
+}
+
+.FooterFollowCubeIcon{
+
+}
+
+.FooterFollowRectIcon{
+
+}
+
+/*-Payment method Part-*/
+.FooterPaySection{
+
+}
+
+.FooterPayIcon{
+
+}
+
+/*-Lower Part of Footer-*/
+.FooterLowerPart{
+
+}
+
+.FooterLowLeft{
+
+}
+
+.FooterLowRight{
+    
 }
