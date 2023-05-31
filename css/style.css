@@ -67,7 +67,7 @@ body{
     padding: auto;
     margin: auto;
     width: 100%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px px 4px rgba(0, 0, 0, 0.75);
     position: relative;
 }
 
@@ -127,6 +127,8 @@ body{
 .Banner{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .BannerIMG{
@@ -137,7 +139,19 @@ body{
 }
 
 .BannerArrowDIV{
+    width: 1248px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    position: absolute;
+}
+
+.BannerArrowLeft{
+    width: 32px;
+    height: 32px;
+}
+
+.BannerArrowRight{
+    width: 32px;
+    height: 32px;
 }
