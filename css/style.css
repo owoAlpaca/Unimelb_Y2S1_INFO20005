@@ -5,17 +5,18 @@ body{
 }
 
 .MAXWidth{
-    max-width: 1300px;
+    max-width: 1280px;
     margin: auto;
     display: block;
 }
 
 /* Top Navigation CSS */
 .TopNavigation{
+    margin: auto 32px;
+    height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
-    padding: auto;
     font-size: 24px;
 }
 
@@ -69,19 +70,20 @@ body{
 }
 
 .TopLogoDIV{
+    height: 80px;
     display: flex;
 }
 
 .TopLogoIMG{
     height: 80px;
-    width: auto;
 }
 
 .TopNavText{
     display: flex;
-    margin: auto;
-    width: 600px;
-    justify-content:space-between;
+    height: 80px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .TopNavText a{
@@ -97,11 +99,18 @@ body{
 }
 
 .TopIconDIV{
+    width: 12%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .TopSearchButton{
+    width: 32px;
+    height: 32px;
+}
+
+.TopShoppingCartButton{
     width: 32px;
     height: 32px;
 }
