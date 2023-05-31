@@ -114,3 +114,9 @@ body{
     width: 32px;
     height: 32px;
 }
+
+/* Banner CSS*/
+.Banner{
+    display: flex;
+    justify-content: center;
+}
