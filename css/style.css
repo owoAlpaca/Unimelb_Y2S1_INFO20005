@@ -247,3 +247,19 @@ body{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration: none;
 }
+
+.FooterBG{
+    background: linear-gradient(to right, #001135 50%, #60706D 50%);
+    padding: auto;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.Footer{
+    margin: auto 64px;
+    height: 640px;
+    display: flex;
+    justify-content: space-between;
+    background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+}
