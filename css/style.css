@@ -334,9 +334,8 @@ body{
 .FooterSFPSection{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    width: 40%;
+    align-items: center;
+    width: 35%;
 }
 
 .FooterSFPTitle{
@@ -347,15 +346,16 @@ body{
     margin: 0px 0px 16px 0px;
 }
 
-/*-Subscribe to our site Part-*/
-.FooterSubSection{
+.FooterSFPPart{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: auto;
+    width: 100%;
+    margin: 0px 0px 32px 0px;
 }
 
+/*-Subscribe to our site Part-*/
 .FooterSubTextBox{
     display: flex;
     justify-content: center;
@@ -416,20 +416,25 @@ body{
 }
 
 /*-Follow us Part-*/
-.FooterFollowSection{
-
-}
-
 .FooterFollowIcon{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0px;
 }
 
 .FooterFollowCubeIcon{
-
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .FooterFollowRectIcon{
-
+    width: 152px;
+    height: 48px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*-Payment method Part-*/
