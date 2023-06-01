@@ -70,6 +70,7 @@ body{
     width: 100%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
     position: fixed;
+    z-index: 999;
 }
 
 .TopLogoDIV{
@@ -140,6 +141,7 @@ body{
     border-bottom-right-radius: 25px;
     opacity: 0;
     transition: opacity 0.3s ease;
+    z-index: 998;
 }
 
 .SearchTextBox{
@@ -241,6 +243,14 @@ body{
     height: 400px;
 }
 
+.BannerIMG:hover{
+    filter: brightness(.5);
+}
+
+.BannerIMG:active{
+    filter: brightness(1);
+}
+
 .BannerArrowLeft{
     width: 32px;
     height: 32px;
@@ -295,6 +305,14 @@ body{
     max-width: 192px;
 }
 
+.ProductSectionCover:hover{
+    filter: brightness(0.5);
+}
+
+.ProductSectionCover:active{
+    filter: brightness(1);
+}
+
 .ProductSectionText{
     height: 96px;
     width: 192px;
@@ -342,6 +360,15 @@ body{
     width: 512px;
     height: 512px;
     border: 2px solid black;
+    cursor: pointer;
+}
+
+.Map:hover{
+    filter: brightness(.5);
+}
+
+.Map:active{
+    filter: brightness(1);
 }
 
 .MapText{
@@ -354,12 +381,17 @@ body{
     text-decoration: none;
 }
 
+.MapText a{
+    color: black;
+}
+
 /* Footer Part*/
 .FooterBG{
     background: linear-gradient(to right, #001135 50%, #60706D 50%);
     padding: auto;
     margin: auto;
     width: 100%;
+    max-height: 660px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
 }
 
@@ -674,6 +706,10 @@ body{
 
 .ProductQuantitiyArrow:hover{
     color:#001135;
+}
+
+.ProductQuantitiyArrow:active{
+    color: white;
 }
 
 .ProductButton{
