@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    background: #D2ECE4;
 }
 
 .MAXWidth{
@@ -117,6 +118,17 @@ body{
     height: 32px;
 }
 
+/*Search Button Menu*/
+.SearchMenu{
+    width: 1216px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
+    font-size: 24px;
+}
+
 /*Body Part Background color*/
 .BackgroundColor{
     background-color: #D2ECE4;
@@ -126,24 +138,13 @@ body{
 /* Banner CSS*/
 .Banner{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: auto;
 }
 
 .BannerIMG{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.BannerArrowDIV{
-    width: 1248px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
+    width: 1200px;
+    height: 400px;
 }
 
 .BannerArrowLeft{
@@ -283,7 +284,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    margin: 64px 0px;
+    margin: 64px 0px 0px 0px;
 }
 
 /*-Upper Left Part-*/
@@ -451,13 +452,24 @@ body{
 
 /*-Lower Part of Footer-*/
 .FooterLowerPart{
-
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid white;
 }
 
-.FooterLowLeft{
-
+.FooterLowSection{
+    font-size: 24px;
+    color: white;
+    margin: 8px 0px;
 }
 
-.FooterLowRight{
+.FooterLowSection a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
 
+.FooterLowSection a:active{
+    color: #60706D;
 }
