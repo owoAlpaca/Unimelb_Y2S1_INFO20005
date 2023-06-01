@@ -269,8 +269,7 @@ body{
 }
 
 .Footer{
-    margin: auto 64px;
-    height: 640px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,46 +279,140 @@ body{
 
 /*-Upper Part of Footer-*/
 .FooterUpperPart{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 64px 0px;
 }
 
 /*-Upper Left Part-*/
 .FooterInfoSection{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
 }
 
 .FooterInfo{
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 32px 0px 0px;
 }
 
 .FooterInfoTitle{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px 0px 16px;
+}
 
+.FooterInfoTitle a{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
 }
 
 .FooterInfoContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.FooterInfoContent a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 16px 0px;
 }
 
 /*-Upper Right Part-*/
 .FooterSFPSection{
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 40%;
 }
 
 .FooterSFPTitle{
-
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px 0px 16px 0px;
 }
 
 /*-Subscribe to our site Part-*/
 .FooterSubSection{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
 }
 
 .FooterSubTextBox{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    width: 100%;
+    margin: 5px 0px;
+}
 
+.FooterSubTextInput{
+    color:white;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    padding: 3px 150px 3px 5px;
+}
+
+.FooterSubTextInput::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.FooterSubButtonBox{
+    display: flex;
+    justify-content: center;
+    margin: 4px 0px 0px 0px;
 }
 
 .FooterSubButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001135;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 128px;
+    height: 32px;
+    color: white;
+    font-size: 16px;
+}
 
+.FooterSubButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001135;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 128px;
+    height: 32px;
+    color: white;
+    font-size: 16px;
+}
+
+.FooterSubButton:active{
+    color: #60706D;
 }
 
 /*-Follow us Part-*/
