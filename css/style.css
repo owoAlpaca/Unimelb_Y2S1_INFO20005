@@ -536,10 +536,15 @@ body{
     height: 32px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.FooterSubButton:hover{
+    color: #60706D;
 }
 
 .FooterSubButton:active{
-    color: #60706D;
+    color: white;
 }
 
 /*-Follow us Part-*/
@@ -836,4 +841,92 @@ body{
 .ProductOverview{
     font-size: 24px;
     margin-bottom: 64px;
+}
+
+#DarkEffect{
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+  
+#AddToCart{
+    position: fixed;
+    z-index: 1001;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 480px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #60706D;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.AddToCartCover{
+    width: auto;
+    height: 342px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.AddToCartTextBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.AddToCartTextBox a{
+    text-decoration: none;
+}
+
+.SuccessIcon{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+.AddToCartText{
+    width: 256px;
+    height: 80px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.AddToCartButton{
+    height: 64px;
+    width: 256px;
+    background-color: #001135;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0px;
+    cursor: pointer;
+}
+
+.AddToCartButton:hover{
+    color: #60706D;
+}
+
+.AddToCartButton:active{
+    color: white;
 }

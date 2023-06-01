@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <a href="#">
-                    <div class="ProductButton">
+                    <div class="ProductButton" onclick="showAddToCart()">
                         Add to Chart
                     </div>
                 </a>
@@ -145,6 +145,22 @@
             </div>
         </div>
     </div>
+
+    <!-- Add to Cart Interface -->
+    <div id="DarkEffect" onclick="hideAddToCart()"></div>
+        
+    <div id="AddToCart">
+        <img src="img/Sale 1.webp" class="AddToCartCover" alt="S1">
+        <div class="AddToCartTextBox">
+            <img src="img/Success.png" class="SuccessIcon" alt="Success">
+            <div class="AddToCartText">Successfully Added to the cart</div>
+            <div class="AddToCartButton" onclick="hideAddToCart()">Continue Shopping</div>
+            <a href="ShoppingCartPage.html">
+                <div class="AddToCartButton">View Cart</div>
+            </a>
+        </div>
+    </div>
+
 
     <!--  Footer -->
     <footer class="FooterBG">
