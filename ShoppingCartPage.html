@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- Website Title -->
+       <title>The Notting Hill Bookshop</title>
+
+       <!-- StyleSheet -->
+       <link rel="stylesheet" href="css/style.css">
+   
+       <!-- JavaScript -->
+       <script src="script.js"></script>
+
+       <!-- Icon -->
+       <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/dac741_4ad0baf508ec4abb87842eeb65bdf9d2%7Emv2_d_2480_1748_s_2.jpg">
+
+</head>
+<body>
+        <!-- Top Navigation Part -->
+    <header class="TopNavigationBG">
+        <div class="MAXWidth">
+            <div class="TopNavigation">
+                <div class="TopLogoDIV">
+                    <a href="HomePage.html">
+                        <img src="img/TNHB_Logo.png" class="TopLogoIMG" alt="Logo">
+                    </a> 
+                </div>
+                <nav class="TopNavText">
+                    <a href="#">Books</a> 
+                    <a href="#">Events</a> 
+                    <a href="#">Gifts</a> 
+                    <a href="#">School Subscriptions</a> 
+                    <a href="#">More</a> 
+                </nav>
+                <div class="TopIconDIV">
+                    <img src="img/Search_Icon.png" class="TopSearchButton" alt="SearchButton" onclick="SearchMenuDisplay()">
+                    <img src="img/ShoppingCart_Icon.png" class="TopShoppingCartButton" alt="ShoppingCart">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="MAXWidth">
+        <div id="SearchMenu">
+            <div class="SearchTextBox">
+                <input type="text" placeholder="Search by Title, Author, Keyword or ISBN" class="SearchTextInput">
+                <img src="img/Search_Icon.png" class="SearchMenuButton" alt="SearchButton">
+            </div>
+            <div class="RecentSearchBox">
+                <div class="RecentSearchTitle">Recently Searched</div>
+                <div class="RecentSearchPreviewBox">
+                    <a href="ProductPage.html">
+                        <div class="RecentSearchPreview">
+                            <img src="img/Sale 1.webp" class="RecentSearchCover" alt="S1">
+                            <div class="RecentSearchText">Persuasion,Jane Austen</div>
+                            <div class="RecentSearchText">£7.99</div>
+                        </div> 
+                    </a>
+                    <a href="#">
+                        <div class="RecentSearchPreview">
+                            <img src="img/Sale 5.webp" class="RecentSearchCover" alt="S5">
+                        <div class="RecentSearchText">Megan Rapinoe (Little People, Big Dreams)</div>
+                        <div class="RecentSearchText">£8.99</div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="RecentSearchPreview">
+                            <img src="img/New Arrival 1.webp" class="RecentSearchCover" alt="N1">
+                        <div class="RecentSearchText">A Little Life,Hanya Yanagihara</div>
+                        <div class="RecentSearchText">£10.99</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart body -->
+
+
+    <!--  Footer -->
+    <footer class="FooterBG">
+        <div class="MAXWidth">
+            <div class="Footer">
+                <div class="FooterUpperPart">
+                    <!-- Upper Left Part -->
+                    <div class="FooterInfoSection">
+                        <!-- Help centre -->
+                        <div class="FooterInfo">
+                            <div class="FooterInfoTitle">
+                                <a href="#">Help Centre</a>
+                            </div>
+                            <div class="FooterInfoContent">
+                                <a href="#">FAQ</a>
+                                <a href="#">Contact Us</a>
+                                <a href="#">Pickup</a>
+                                <a href="#">Track My Order</a>
+                                <a href="#">Shipping Price</a>
+                                <a href="#">Return & Refund</a>
+                            </div>
+                        </div>
+                        <!-- About us -->
+                        <div class="FooterInfo">
+                            <div class="FooterInfoTitle">
+                                <a href="#">About us</a>
+                            </div>
+                            <div class="FooterInfoContent">
+                                <a href="#">Our Bookshop</a>
+                                <a href="#">The Notting Hill</a>
+                                <a href="#">Gallery</a>
+                                <a href="#">Work With Us</a>
+                            </div>
+                        </div>
+                        <!-- Book Category -->
+                        <div class="FooterInfo">
+                            <div class="FooterInfoTitle">
+                                <a href="#">Book Category</a>
+                            </div>
+                            <div class="FooterInfoContent">
+                                <a href="#">Classics</a>
+                                <a href="#">New Arrivals</a>
+                                <a href="#">Leatherbound</a>
+                                <a href="#">Fiction</a>
+                                <a href="#">Non Fiction</a>
+                                <a href="#">Children's Books</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Upper Right Part -->
+                    <div class="FooterSFPSection">
+                        <!-- Subscribe Part -->
+                        <div class="FooterSFPPart">
+                            <div class="FooterSFPTitle">Subscribe to Our Site</div>
+                            <div class="FooterSubTextBox">
+                                <input type="text" placeholder="Name" class="FooterSubTextInput">
+                            </div>
+                            <div class="FooterSubTextBox">
+                                <input type="text" placeholder="Email" class="FooterSubTextInput">
+                            </div>
+                            <div class="FooterSubButtonBox">
+                                <button type="button" class="FooterSubButton">Subscribe</button>
+                            </div>
+                        </div>
+                        <!-- Follow Part -->
+                        <div class="FooterSFPPart">
+                            <div class="FooterSFPTitle">Follow Us</div>
+                            <div class="FooterFollowIcon">
+                                <a href="#"><img src="img/icon 1.webp" class="FooterFollowCubeIcon" alt="Twitter"></a>
+                                <a href="#"><img src="img/icon 2.webp" class="FooterFollowCubeIcon" alt="Facebook"></a>
+                                <a href="#"><img src="img/icon 3.webp" class="FooterFollowCubeIcon" alt="INS"></a>
+                                <a href="#"><img src="img/icon 4.webp" class="FooterFollowRectIcon" alt="bookshop"></a>
+                            </div>
+                        </div>
+                        <!-- Payment Part -->
+                        <div class="FooterSFPPart">
+                            <div class="FooterSFPTitle">Payment Method</div>
+                            <img src="img/Paypal.png" class="FooterPayIcon" alt="PayPal">
+                        </div>
+                    </div>
+                </div>
+                <div class="FooterLowerPart">
+                    <div class="FooterLowSection">
+                        <a href="#">Term of use</a> | 
+                        <a href="#">Privacy</a> | 
+                        <a href="#">Cookie Policy</a> | 
+                        <a href="#">Sitemap</a>
+                    </div>
+                    <div class="FooterLowSection">© 2021 by The Notting Hill Bookshop.Ltd</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
