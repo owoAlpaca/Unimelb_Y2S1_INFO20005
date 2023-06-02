@@ -38,3 +38,10 @@ function hideAddToCart() {
     AddToCart.style.display = "none";
   }, 100);
 }
+
+//Check Out Page - Step 2 - Disable Express Delivery
+function DisableOption(){
+  let Standard = document.getElementById("Standard")
+  alert("Express Delivery is temporarily unavailable.");
+  Standard.checked = true;
+}
