@@ -930,3 +930,92 @@ body{
 .AddToCartButton:active{
     color: white;
 }
+
+
+
+/*Shopping Cart Page*/
+/*Left Part*/
+.MyCartPart{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 32px;
+}
+
+.MyCartPart h1{
+    font-size: 32px;
+    margin: 32px 0;
+}
+
+.MyCartProductBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 32px;
+    border-bottom: 1px solid black;
+    margin-bottom: 32px;
+}
+
+.MyCartProductBox2{
+    display: flex;
+}
+
+.MyCartProductCover{
+    height: 211px;
+    width: auto;
+    margin-right: 16px;
+}
+
+.MyCartProductIntroBox{
+    height: 211px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.MyCartProductIntro{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.MyCartProductIntro h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px 0px;
+}
+
+.MyCartStockCount{
+    display: flex;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.MyCartStockCount p{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px 4px;
+}
+
+.MyCartPrice{
+    color: black;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px 0px;
+    height: 32px;
+    width: 128px;
+    text-align: center;
+}
+
+/*Right Part*/
