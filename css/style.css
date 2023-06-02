@@ -109,6 +109,10 @@ body{
     align-items: center;
 }
 
+.TopIconDIV a{
+    height: 32px;
+}
+
 .TopSearchButton{
     width: 32px;
     height: 32px;
@@ -123,6 +127,22 @@ body{
 .TopShoppingCartButton{
     width: 32px;
     height: 32px;
+}
+
+@keyframes shake{
+    0%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.TopShoppingCartButton:hover{
+    animation: shake 0.5s ease-in-out;
 }
 
 /*Search Button Menu*/
@@ -1282,4 +1302,145 @@ body{
     font-size: 16px;
     font-weight: bold;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Order Completed Page */
+.ThankInfo{
+    display: block;
+    color: black;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 64px 160px;
+}
+
+.ContinueBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 924px;
+    height: 64px;
+    margin: 0px auto 64px auto;
+    padding:4px 0px 4px 16px;
+    background-color: #60706D;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ContinueBox a{
+    color: white;
+    text-decoration: none;
+}
+
+.BackButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 256px;
+    height: 64px;
+    background-color: #001135;
+    font-size: 24px;
+    text-shadow: none;
+    border:2px solid white;
+    border-radius: 5px;
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.BackButton:hover{
+    color: #60706D;
+}
+
+.BackButton:active{
+    color: white;
+}
+
+.WaitingBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 940px;
+    margin: 0px auto 64px auto;
+    padding:16px 0;
+    background-color: #60706D;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WaitingBox p{
+    color: red;
+}
+
+.StageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+}
+
+.Stage{
+    width: 32px;
+    height: 32px;
+    background-color: #45D34A;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.Stage:hover{
+    filter: brightness(.75);
+}
+
+.Stage:active{
+    filter: brightness(1);
+}
+
+.StageBlank{
+    width: 32px;
+    height: 32px;
+    background-color: none;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.StageBlank:hover{
+    filter: brightness(.75);
+}
+
+.StageBlank:active{
+    filter: brightness(1);
+}
+
+.Line{
+    width: 150px;
+    border: 2px solid white;
+}
+
+.WaitingText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.WaitingText p{
+    color: red;
+    margin: 0px 8px;
 }
