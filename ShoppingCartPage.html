@@ -19,62 +19,64 @@
 </head>
 <body>
         <!-- Top Navigation Part -->
-    <header class="TopNavigationBG">
+        <header class="TopNavigationBG">
+            <div class="MAXWidth">
+                <div class="TopNavigation">
+                    <div class="TopLogoDIV">
+                        <a href="HomePage.html">
+                            <img src="img/TNHB_Logo.png" class="TopLogoIMG" alt="Logo">
+                        </a> 
+                    </div>
+                    <nav class="TopNavText">
+                        <a href="#">Books</a> 
+                        <a href="#">Events</a> 
+                        <a href="#">Gifts</a> 
+                        <a href="#">School Subscriptions</a> 
+                        <a href="#">More</a> 
+                    </nav>
+                    <div class="TopIconDIV">
+                        <img src="img/Search_Icon.png" class="TopSearchButton" alt="SearchButton" onclick="SearchMenuDisplay()">
+                        <a href="ShoppingCartPage.html">
+                            <img src="img/ShoppingCart_Icon.png" class="TopShoppingCartButton" alt="ShoppingCart">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="MAXWidth">
-            <div class="TopNavigation">
-                <div class="TopLogoDIV">
-                    <a href="HomePage.html">
-                        <img src="img/TNHB_Logo.png" class="TopLogoIMG" alt="Logo">
-                    </a> 
+            <div id="SearchMenu">
+                <div class="SearchTextBox">
+                    <input type="text" placeholder="Search by Title, Author, Keyword or ISBN" class="SearchTextInput">
+                    <img src="img/Search_Icon.png" class="SearchMenuButton" alt="SearchButton">
                 </div>
-                <nav class="TopNavText">
-                    <a href="#">Books</a> 
-                    <a href="#">Events</a> 
-                    <a href="#">Gifts</a> 
-                    <a href="#">School Subscriptions</a> 
-                    <a href="#">More</a> 
-                </nav>
-                <div class="TopIconDIV">
-                    <img src="img/Search_Icon.png" class="TopSearchButton" alt="SearchButton" onclick="SearchMenuDisplay()">
-                    <img src="img/ShoppingCart_Icon.png" class="TopShoppingCartButton" alt="ShoppingCart">
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="MAXWidth">
-        <div id="SearchMenu">
-            <div class="SearchTextBox">
-                <input type="text" placeholder="Search by Title, Author, Keyword or ISBN" class="SearchTextInput">
-                <img src="img/Search_Icon.png" class="SearchMenuButton" alt="SearchButton">
-            </div>
-            <div class="RecentSearchBox">
-                <div class="RecentSearchTitle">Recently Searched</div>
-                <div class="RecentSearchPreviewBox">
-                    <a href="ProductPage.html">
-                        <div class="RecentSearchPreview">
-                            <img src="img/Sale 1.webp" class="RecentSearchCover" alt="S1">
-                            <div class="RecentSearchText">Persuasion,Jane Austen</div>
-                            <div class="RecentSearchText">£7.99</div>
-                        </div> 
-                    </a>
-                    <a href="#">
-                        <div class="RecentSearchPreview">
-                            <img src="img/Sale 5.webp" class="RecentSearchCover" alt="S5">
-                        <div class="RecentSearchText">Megan Rapinoe (Little People, Big Dreams)</div>
-                        <div class="RecentSearchText">£8.99</div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="RecentSearchPreview">
-                            <img src="img/New Arrival 1.webp" class="RecentSearchCover" alt="N1">
-                        <div class="RecentSearchText">A Little Life,Hanya Yanagihara</div>
-                        <div class="RecentSearchText">£10.99</div>
-                        </div>
-                    </a>
+                <div class="RecentSearchBox">
+                    <div class="RecentSearchTitle">Recently Searched</div>
+                    <div class="RecentSearchPreviewBox">
+                        <a href="ProductPage.html">
+                            <div class="RecentSearchPreview">
+                                <img src="img/Sale 1.webp" class="RecentSearchCover" alt="S1">
+                                <div class="RecentSearchText">Persuasion,Jane Austen</div>
+                                <div class="RecentSearchText">£7.99</div>
+                            </div> 
+                        </a>
+                        <a href="#">
+                            <div class="RecentSearchPreview">
+                                <img src="img/Sale 5.webp" class="RecentSearchCover" alt="S5">
+                            <div class="RecentSearchText">Megan Rapinoe (Little People, Big Dreams)</div>
+                            <div class="RecentSearchText">£8.99</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="RecentSearchPreview">
+                                <img src="img/New Arrival 1.webp" class="RecentSearchCover" alt="N1">
+                            <div class="RecentSearchText">A Little Life,Hanya Yanagihara</div>
+                            <div class="RecentSearchText">£10.99</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     
     <!-- Space -->
     <div class="TopNavigationSpace"></div>
