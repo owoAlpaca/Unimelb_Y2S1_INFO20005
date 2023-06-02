@@ -964,10 +964,24 @@ body{
     display: flex;
 }
 
+.MyCartProductCoverBox{
+    height: 211px;
+    width: 160px;
+    margin-right: 16px;
+}
+
 .MyCartProductCover{
     height: 211px;
     width: auto;
-    margin-right: 16px;
+    cursor: pointer;
+}
+
+.MyCartProductCover:hover{
+    filter: brightness(.5);
+}
+
+.MyCartProductCover:active{
+    filter: brightness(1); 
 }
 
 .MyCartProductIntroBox{
@@ -1019,3 +1033,56 @@ body{
 }
 
 /*Right Part*/
+.OrderSummaryPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 350px;
+    margin: 64px 32px;
+    background-color: #60706D;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 16px 16px 0px 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.OrderSummaryPart h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0px;
+}
+
+.OrderSummaryUpper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0px;
+    border-bottom: 1px solid white;
+    padding-bottom: 16px;
+}
+
+.OrderSummaryText{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.OrderSummaryText p{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0px 0px 0px;
+}
+
+.OrderSummaryText sup{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
