@@ -24,4 +24,30 @@
     .Top3DotButton{
         display: flex;
     }
+
+    .FooterUpperPart{
+        flex-direction: column;
+    }
+
+    .FooterInfoSection{
+        display: block;
+    }
+
+    .FooterInfoTitle a{
+        font-size: 18px;
+    }
+
+    .FooterInfoContent a{
+        font-size: 16px;
+    }
+
+    .FooterInfoContent{
+        border-bottom: 1px solid white;
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+    }
+
+    .FooterInfoContent a{
+        margin: 8px 0;
+    }
 }
