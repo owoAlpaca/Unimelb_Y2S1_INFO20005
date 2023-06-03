@@ -1,0 +1,27 @@
+/* Width less than 390px */
+@media (max-width: 390px) {
+    .MAXWidth{
+        max-width: 390px;
+    }
+
+    .TopNavigation{
+        height: 64px;
+        margin: auto 16px;
+    }
+
+    .TopLogoIMG{
+        height: 80%;
+    }
+
+    .TopNavText{
+        display: none;
+    }
+
+    .TopIconDIV{
+        width: 36%;
+    }
+
+    .Top3DotButton{
+        display: flex;
+    }
+}
