@@ -18,7 +18,6 @@ body{
     display: flex;
     justify-content: space-between;
     background: radial-gradient(80% 10000% at 100% 50%, #60706D 0%, #60706D 15.3%, #001135 100%);
-    font-size: 24px;
 }
 
 /* Keep Logo stay in #001135 background in TopNavigation*/
@@ -74,17 +73,22 @@ body{
 }
 
 .TopLogoDIV{
-    height: 80px;
+    height: 100%;
+    display: flex;
+}
+
+.TopLogoDIV a{
     display: flex;
 }
 
 .TopLogoIMG{
-    height: 80px;
+    height: 100%;
+    margin: auto;
 }
 
 .TopNavText{
     display: flex;
-    height: 80px;
+    height: 100%;
     width: 60%;
     justify-content: space-between;
     align-items: center;
@@ -104,18 +108,22 @@ body{
 
 .TopIconDIV{
     width: 12%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .TopIconDIV a{
-    height: 32px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .TopSearchButton{
-    width: 32px;
-    height: 32px;
+    width: auto;
+    height: 40%;
     cursor: pointer;
 }
 
@@ -125,8 +133,20 @@ body{
 }
 
 .TopShoppingCartButton{
-    width: 32px;
-    height: 32px;
+    width: auto;
+    height: 40%;
+}
+
+.Top3DotButton{
+    display: none;
+    width: auto;
+    height: 40%;
+    cursor: pointer;
+}
+
+.Top3DotButton:hover{
+    filter: brightness(.5);
+    transition: filter 0.3s ease;
 }
 
 @keyframes shake{
@@ -465,6 +485,8 @@ body{
 }
 
 .FooterInfoTitle{
+    display: flex;
+    justify-content: space-between;
     color: white;
     font-size: 24px;
     font-weight: bold;
@@ -480,10 +502,15 @@ body{
     text-decoration: none;
 }
 
+.FooterToggleButton{
+    
+}
+
 .FooterInfoContent{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    border-bottom: none;
 }
 
 .FooterInfoContent a{
