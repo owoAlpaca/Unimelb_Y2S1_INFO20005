@@ -4,6 +4,7 @@
         max-width: 390px;
     }
 
+/* TopNavigation */
     .TopNavigation{
         height: 64px;
         margin: auto 16px;
@@ -25,8 +26,42 @@
         display: flex;
     }
 
+    .TopNavigationSpace{
+        padding-top: 64px;
+    }
+
+ /* Banner */   
+    .BannerIMG{
+        width: 390px;
+        height: auto;
+    }
+
+    .BannerArrowLeft{
+        display: none;
+    }
+
+    .BannerArrowRight{
+        display: none;
+    }
+
+    .FooterInfo{
+        margin: 0 16px 16px 16px;
+        border-bottom: 1px solid white;
+    }
+
+/* Footer */
     .FooterUpperPart{
         flex-direction: column;
+        margin: 32px 0 0 0;
+    }
+
+    .FooterInfoSection{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .FooterSFPSection{
+        width: 100%;
     }
 
     .FooterInfoSection{
@@ -37,17 +72,57 @@
         font-size: 18px;
     }
 
-    .FooterInfoContent a{
+    #FooterToggleButton1{
+        display: flex;
+    }
+
+    #FooterToggleButton2{
+        display: flex;
+    }
+
+    #FooterToggleButton3{
+        display: flex;
+    }
+
+    #FooterInfoContent1{
+        display: none;
+    }
+
+    #FooterInfoContent2{
+        display: none;
+    }
+
+    #FooterInfoContent3{
+        display: none;
+    }
+
+    #FooterInfoContent1 a{
         font-size: 16px;
     }
 
-    .FooterInfoContent{
-        border-bottom: 1px solid white;
-        padding-bottom: 8px;
-        margin-bottom: 16px;
+    #FooterInfoContent2 a{
+        font-size: 16px;
     }
 
-    .FooterInfoContent a{
-        margin: 8px 0;
+    #FooterInfoContent3 a{
+        font-size: 16px;
+    }
+
+    .FooterSFPTitle{
+        font-size: 24px;
+    }
+
+    .FooterLowerPart{
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .FooterLowSection{
+        font-size: 16px;
+    }
+
+    .FooterLowSection a{
+        font-size: 16px;
     }
 }

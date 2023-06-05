@@ -46,3 +46,42 @@ function DisableOption(){
   Standard.checked = true;
 }
 
+//Footer - UpperInfoSection - ToggleButton123 + - & hide content
+function FtoggleButton1() {
+  let button = document.getElementById("FooterToggleButton1");
+  let hidecontent = document.getElementById("FooterInfoContent1");
+
+  if (button.textContent === "+") {
+    button.textContent = "-";
+    hidecontent.style.display = "flex";
+  } else {
+    button.textContent = "+";
+    hidecontent.style.display = "none";
+  }
+}
+
+function FtoggleButton2() {
+  let button = document.getElementById("FooterToggleButton2");
+  let hidecontent = document.getElementById("FooterInfoContent2");
+
+  if (button.textContent === "+") {
+    button.textContent = "-";
+    hidecontent.style.display = "flex";
+  } else {
+    button.textContent = "+";
+    hidecontent.style.display = "none";
+  }
+}
+
+function FtoggleButton3() {
+  let button = document.getElementById("FooterToggleButton3");
+  let hidecontent = document.getElementById("FooterInfoContent3");
+
+  if (button.textContent === "+") {
+    button.textContent = "-";
+    hidecontent.style.display = "flex";
+  } else {
+    button.textContent = "+";
+    hidecontent.style.display = "none";
+  }
+}

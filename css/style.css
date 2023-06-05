@@ -64,7 +64,6 @@ body{
 
 .TopNavigationBG{
     background: linear-gradient(to right, #001135 50%, #60706D 50%);
-    padding: auto;
     margin: auto;
     width: 100%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
@@ -466,7 +465,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    margin: 64px 0px 0px 0px;
+    margin: 64px 0 0 0;
 }
 
 /*-Upper Left Part-*/
@@ -486,6 +485,7 @@ body{
 
 .FooterInfoTitle{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     color: white;
     font-size: 24px;
@@ -502,23 +502,102 @@ body{
     text-decoration: none;
 }
 
-.FooterToggleButton{
-    
+#FooterToggleButton1{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-.FooterInfoContent{
+#FooterToggleButton1:hover{
+    filter: brightness(.5);
+}
+
+#FooterToggleButton1:active{
+    filter: brightness(1);
+}
+
+#FooterToggleButton2{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#FooterToggleButton2:hover{
+    filter: brightness(.5);
+}
+
+#FooterToggleButton2:active{
+    filter: brightness(1);
+}
+
+#FooterToggleButton3{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#FooterToggleButton3:hover{
+    filter: brightness(.5);
+}
+
+#FooterToggleButton3:active{
+    filter: brightness(1);
+}
+
+#FooterInfoContent1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     border-bottom: none;
 }
 
-.FooterInfoContent a{
+#FooterInfoContent1 a{
     color: white;
     font-size: 20px;
     text-decoration: none;
     margin: 16px 0px;
 }
+
+#FooterInfoContent2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: none;
+}
+
+#FooterInfoContent2 a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 16px 0px;
+}
+
+#FooterInfoContent3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: none;
+}
+
+#FooterInfoContent3 a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 16px 0px;
+}
+
 
 /*-Upper Right Part-*/
 .FooterSFPSection{
