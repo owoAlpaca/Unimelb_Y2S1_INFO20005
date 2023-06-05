@@ -100,6 +100,51 @@
         font-weight: bold;
         text-decoration: none;
     }
+    
+    /*Search Button Menu*/
+    #SearchMenu{
+        width: 373px;
+        margin: 64px 0 0 0;
+    }
+
+    .SearchTextInput{
+        font-size: 14px;
+        width: 320px;
+        height: 24px;
+        margin: 24px 16px ;
+    }
+
+    .SearchMenuButton{
+        width: 16px;
+        height: 16px;
+        margin-left: 320px;
+    }
+
+    .RecentSearchBox{
+        margin: 0px 0px 32px 16px;
+    }
+
+    .RecentSearchTitle{
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .RecentSearchPreview{
+        width: 96px;
+        height: 240px;
+        margin: 0 16px 0 0;
+    }
+
+    .RecentSearchCover{
+        height: 128px;
+    }
+
+    .RecentSearchText{
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
 
     /* map */
     .MapSection{
@@ -194,5 +239,93 @@
 
     .FooterLowSection a{
         font-size: 16px;
+    }
+
+    /* Product Page*/
+    .ProductInfo {
+        flex-direction: column;
+        margin: 32px 16px;
+    }
+
+    .ProductInfoTextBox {
+        align-items: center;
+    }
+
+    .ProductInfoText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+
+    .ProductInfoText h1{
+        font-size: 24px;
+        margin: 8px 0px;
+    }
+
+    .ProductInfoText h2{
+        font-size: 24px;
+        margin: 16px 0;
+    }
+    
+    .ProductQuantityBox {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .StockCountBox {
+        align-items: center;
+    }
+
+    .DeliveryTextBox {
+        text-align: center;
+        font-size: 13px
+    }
+
+    .ProductODTitleBox {
+        margin: 16px 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ProductODTitle {
+        font-size: 16px;
+    }
+
+    .ProductOverview {
+        font-size: 14px;
+        margin: 0 16px 32px 16px;
+    }
+
+    #AddToCart {
+        width: 373px;
+        height: 240px;
+    }
+
+    .AddToCartCover {
+        width: auto;
+        height: 176px;
+    }
+
+    .SuccessIcon {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 4px;
+    }
+
+    .AddToCartText {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .AddToCartButton {
+        height: 32px;
+        width: 128px;
+        font-size: 12px;
+        margin: 8px 0px;
+
     }
 }
