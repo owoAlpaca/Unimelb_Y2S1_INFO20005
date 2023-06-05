@@ -471,4 +471,61 @@
     .ReviewInfo {
         font-size: 12px;
     }
+
+
+    /* Order Completed Page*/
+    .ThankInfo {
+        font-size: 32px;
+        margin: 32px 16px;
+    }
+
+    .ContinueBox{
+        width: 350px;
+        height: 64px;
+        font-size: 20px;
+    }
+    
+    .BackButton{
+        text-align: center;
+        width: 128px;
+        height: 64px;
+        font-size: 16px;
+    }
+    
+    .WaitingBox{
+        text-align: center;
+        width: 365px;
+        font-size: 24px;
+    }
+    
+    .StageBox{
+        margin: 32px;
+    }
+    
+    .Stage{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .StageBlank{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .Line{
+        width: 60px;
+        border: 2px solid white;
+    }
+    
+    .WaitingText{
+        display: flex;
+        flex-direction: column;
+        color:white;
+        font-size: 24px;
+    }
+    
+    .WaitingText p{
+        color: red;
+        margin: 8px;
+    }
 }
