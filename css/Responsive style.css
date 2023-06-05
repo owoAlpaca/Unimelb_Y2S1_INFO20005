@@ -328,4 +328,147 @@
         margin: 8px 0px;
 
     }
+
+    /*Shopping Cart Page*/
+    .ShoppingCartBox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MyCartPart {
+        width: 100%;
+        margin: 16px;
+    }
+    
+    .MyCartPart h1 {
+        font-size: 24px;
+        margin: 32px 0;
+    }
+
+    .MyCartProductCoverBox {
+        height: 108px;
+        width: 85px;
+        margin: 4px 4px;
+    }
+
+    .MyCartProductCover {
+        height: 108px;
+    }
+
+    .MyCartProductIntroBox {
+        height: 108px;
+        width: 108px;
+    }
+
+    .MyCartProductIntro {
+        font-size: 12px;
+        max-height: 54px;
+        overflow: hidden;
+    }
+
+    .MyCartProductIntro h1 {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .MyCartStockCount {
+        font-size: 12px;
+    }
+
+    .MyCartPrice {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 4px 0px;
+        height: 16px;
+        width: 48px;
+        text-align: center;
+    }
+
+    .ProductQuantityButtonBG {
+        font-size: 16px;
+        width: 32px;
+        height: 24px;
+        margin: 0px 16px;
+    }
+
+    .ProductQuantityUpDown {
+        display: none;
+    }
+
+    .OrderSummaryPart {
+        width: 90%;
+        height: 320px;
+        margin: 64px 32px;
+    }
+
+    /*Check Out*/
+    .CheckOutPart {
+        width: 98%;
+        margin: 0;
+    }
+
+    .CheckOutPart h1{
+        font-size: 24px;
+        margin: 32px 0;
+    }
+
+    .StepBox {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+
+    .Shippingradiobox {
+        margin: 16px 0;
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+
+    .PaymentBox p {
+        font-size: 16px;
+    }
+
+    .PaymentPayIcon {
+        height: 24px;
+    }
+
+    .ReviewBox {
+        width: 100%;
+        margin: 16px 0;
+    }
+
+    .ReviewCoverBox {
+        height: 108px;
+        min-width: 82px;
+    }
+    .ReviewCover {
+        height: 108px;
+    }
+
+    .ReviewTitle {
+        font-size: 12px;
+        margin-left: 4px;
+        margin-right: 2.5%;
+        width: 30%;
+    }
+
+    .ReviewQuantity {
+        font-size: 12px;
+        margin: 0px 4px;
+    }
+
+    .ReviewPrice {
+        font-size: 12px;
+        margin-left: 2%;
+    }
+
+    .ReviewInfoBox {
+        margin-bottom: 8px;
+    }
+
+    .ReviewInfo {
+        font-size: 12px;
+    }
 }
